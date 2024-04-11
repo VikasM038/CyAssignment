@@ -172,8 +172,12 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "build":"rollup -c",
+    "start":"http-server",
+    "test":"cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+
   },
   "author": "",
   "license": "ISC",
