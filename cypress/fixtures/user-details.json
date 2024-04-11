@@ -1,0 +1,11 @@
+{
+  "firstName": "Test",
+  "lastName": "Automation",
+  "country": "IN",
+  "state": "MH",
+  "city": "Mumbai",
+  "address":"123 Main St",
+  "phone": 7957357587,
+  "emailId": "test@testing.com",
+  "postcode": 400001
+}
