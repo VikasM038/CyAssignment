@@ -171,7 +171,7 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "build": "cypress --config cypress.config.js",
+    "build": "npx cypress run --browser chrome",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open"
   },
