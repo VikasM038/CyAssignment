@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "cypress": "^13.7.2",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "start-server-and-test": "^2.0.3"
   },
   "name": "practice",
   "version": "1.0.0",
@@ -171,7 +172,6 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "build": "npx cypress run --browser chrome",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open"
   },
